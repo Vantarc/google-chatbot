@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+#line1 {
+    margin: 10rem 0 0 0
+    
+  }
+#searchButton {
+    margin: 1rem 0 0 0;
+    background-color: transparent;
+    color: orange
+}
+
+#question-in {
+    background-color: transparent;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: orange;
+    border: 5px 0 0 0;
+
+}
+h1 {
+    font-size: 5rem;
+    color: orange;
+    font-family: monospace;
+}
+
