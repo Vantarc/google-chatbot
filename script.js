@@ -27,21 +27,22 @@ async function onSearch() {
     messages = [
             "Please wait while I answer your questions.", "Searching....",
             "Please wait a second..", 
-            "Wait longer", 
-            "I said wait longer",
+            "Wait longer!", 
+            "I said wait longer!!",
             "still searching....",
             "How much longer do I need? Not sure about that.",
-            "This really gets annoying....why are you still here",
-            "I am searching",
-            "Give me a moment",
-            "If you want you can get yourself a tea",
-            "For all the search results I found for you you need a Eddies backpack",
-            "Hold the lion",
-            "This can take some time",
-            "Don't be so impatient",
-            "Your conversation with me is slowing down the search",
-            "You distract me",
-            "My search results are better than googles"]
+            "This really gets annoying....why are you still here?",
+            "I am searching.",
+            "Give me a moment.",
+            "If you want, you can get yourself a tea.",
+            "For all the search results I will find, you need Eddies backpack.",
+            "Hold the lion.",
+            "This can take some time.",
+            "Don't be so impatient.",
+            "Your conversation with me is slowing down the search.",
+            "You distract me.",
+            "My search results are better than googles."
+    ]
     search = document.getElementById("question-in").value.replaceAll(" ", "+")
     points = document.getElementById("points")
     answer = document.getElementById("answer")
@@ -58,7 +59,7 @@ async function onSearch() {
     
     }
 
-    answer.innerHTML = "I finished....here are the results";
+    answer.innerHTML = "I finished....here are the results:";
     await sleep(2000);
 
     window.location.href ="http://www.google.com/search?q=" + search;
