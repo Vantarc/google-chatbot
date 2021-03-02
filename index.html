@@ -1,1 +1,19 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script async="" type="text/javascript" src="script.js"></script>
+    </head>    
+    <div id="placeholder">
+    </div>
+    <center>
+        <h1 id="line1">Hello I'm the i-bot.</h1>
+        <h1>Feel free to ask any questions.</h1>
+        <input type="text" id="question-in" name= "inputbox" onkeypress="this.style.width = ((this.value.length + 1) * 8 + 100) + 'px';"></input>
+        <br>
+        <button onclick = onSearch() id="searchButton">Search</button>
+        <h1 id="points" style="display: none;"> ....</h1>
+        <h1 id="answer" style="display: none;">My answer is..</h1>
+    </center>
+    
+</html>
