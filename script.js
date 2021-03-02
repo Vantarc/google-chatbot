@@ -25,7 +25,8 @@ function writePoints(message, id, interval) {
 }
 async function onSearch() {
     messages = [
-            "Please wait while I answer your questions.", "Searching....",
+            "Please wait while I answer your question.",
+            "Searching....",
             "Please wait a second..", 
             "Wait longer!", 
             "I said wait longer!!",
